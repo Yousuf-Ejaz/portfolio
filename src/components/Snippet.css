@@ -1,0 +1,676 @@
+/* *::before {
+	display: none !important;
+} */
+.gist {
+	font-size: 18px;
+}
+.gist .blob-num {
+	padding: 0 !important;
+}
+.gist-meta,
+.gist-file,
+.octotree_toggle,
+ul.comparison-list > li.title,
+button.button,
+a.button,
+span.button,
+button.minibutton,
+a.minibutton,
+span.minibutton,
+.clone-url-button > .clone-url-link {
+	background: linear-gradient(#202020, #181818) !important;
+	border-color: #383838 !important;
+	border-radius: 0 0 3px 3px !important;
+	text-shadow: none !important;
+	color: #b5b5b5 !important;
+}
+.markdown-format pre,
+.markdown-body pre,
+.markdown-format .highlight pre,
+.markdown-body .highlight pre,
+body.blog pre,
+#facebox pre,
+.blob-expanded,
+.terminal,
+.copyable-terminal,
+#notebook .input_area,
+.blob-code-context,
+.markdown-format code,
+body.blog pre > code,
+.api pre,
+.api code,
+.CodeMirror,
+.highlight {
+	background-color: #011221 !important;
+	color: #c5c8c6 !important;
+}
+.gist .blob-code {
+	padding: 1px 10px !important;
+	text-align: left;
+	background: #000;
+	border: 0;
+}
+::selection {
+	background: #24890d;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #24890d;
+	color: #fff;
+	text-shadow: none;
+}
+.blob-num {
+	padding: 0 !important;
+	text-align: right;
+	color: #011627 !important;
+	border: 0;
+}
+.blob-code,
+.blob-code-inner {
+	color: #c5c8c6 !important;
+}
+.pl-c,
+.pl-c span {
+	color: #969896 !important;
+	font-style: italic !important;
+}
+.pl-c1 {
+	color: #5565e8 !important;
+}
+.pl-cce {
+	color: #5565e8 !important;
+}
+.pl-cn {
+	color: #5565e8 !important;
+}
+.pl-coc {
+	color: #5565e8 !important;
+}
+.pl-cos {
+	color: #607b96 !important;
+}
+.pl-e {
+	color: #c98bdf !important;
+}
+.pl-ef {
+	color: #c98bdf !important;
+}
+.pl-en {
+	color: #c98bdf !important;
+}
+.pl-enc {
+	color: #5565e8 !important;
+}
+.pl-enf {
+	color: #c98bdf !important;
+}
+.pl-enm {
+	color: #c98bdf !important;
+}
+.pl-ens {
+	color: #5565e8 !important;
+}
+.pl-ent {
+	color: #fea55f !important;
+}
+.pl-entc {
+	color: #c98bdf !important;
+}
+.pl-enti {
+	color: #c98bdf !important;
+	font-weight: 700 !important;
+}
+.pl-entm {
+	color: #c66 !important;
+}
+.pl-eoa {
+	color: #fea55f !important;
+}
+.pl-eoac {
+	color: #c66 !important;
+}
+.pl-eoac .pl-pde {
+	color: #c66 !important;
+}
+.pl-eoai {
+	color: #fea55f !important;
+}
+.pl-eoai .pl-pde {
+	color: #fea55f !important;
+}
+.pl-eoi {
+	color: #c98bdf !important;
+}
+.pl-k {
+	color: #fea55f !important;
+}
+.pl-ko {
+	color: #fea55f !important;
+}
+.pl-kolp {
+	color: #fea55f !important;
+}
+.pl-kos {
+	color: #5565e8 !important;
+}
+.pl-kou {
+	color: #5565e8 !important;
+}
+.pl-mai .pl-sf {
+	color: #c66 !important;
+}
+.pl-mb {
+	color: #607b96 !important;
+	font-weight: 700 !important;
+}
+.pl-mc {
+	color: #fea55f !important;
+}
+.pl-mh .pl-pdh {
+	color: #5565e8 !important;
+}
+.pl-mi {
+	color: #fea55f !important;
+	font-style: italic !important;
+}
+.pl-ml {
+	color: #607b96 !important;
+}
+.pl-mm {
+	color: #c66 !important;
+}
+.pl-mp {
+	color: #81a2be !important;
+}
+.pl-mp1 .pl-sf {
+	color: #81a2be !important;
+}
+.pl-mq {
+	color: #5565e8 !important;
+}
+.pl-mr {
+	color: #fea55f !important;
+}
+.pl-ms {
+	color: #fea55f !important;
+}
+.pl-pdb {
+	color: #607b96 !important;
+	font-weight: 700 !important;
+}
+.pl-pdc {
+	color: #969896 !important;
+	font-style: italic !important;
+}
+.pl-pdc1 {
+	color: #5565e8 !important;
+}
+.pl-pde {
+	color: #5565e8 !important;
+}
+.pl-pdi {
+	color: #fea55f !important;
+	font-style: italic !important;
+}
+.pl-pds {
+	color: #607b96 !important;
+}
+.pl-pdv {
+	color: #c66 !important;
+}
+.pl-pse {
+	color: #5565e8 !important;
+}
+.pl-pse .pl-s2 {
+	color: #5565e8 !important;
+}
+.pl-s {
+	color: #fea55f !important;
+}
+.pl-s1 {
+	color: #607b96 !important;
+}
+.pl-s2 {
+	color: #c5c8c6 !important;
+}
+.pl-mp .pl-s3 {
+	color: #fea55f !important;
+}
+.pl-s3 {
+	color: #81a2be !important;
+}
+.pl-sc {
+	color: #c5c8c6 !important;
+}
+.pl-scp {
+	color: #5565e8 !important;
+}
+.pl-sf {
+	color: #dad085 !important;
+}
+.pl-smc {
+	color: #c98bdf !important;
+}
+.pl-smi {
+	color: #c5c8c6 !important;
+}
+.pl-smp {
+	color: #c5c8c6 !important;
+}
+.pl-sok {
+	color: #fea55f !important;
+}
+.pl-sol {
+	color: #607b96 !important;
+}
+.pl-som {
+	color: #c66 !important;
+}
+.pl-sr {
+	color: #c66 !important;
+}
+.pl-sra {
+	color: #fea55f !important;
+}
+.pl-src {
+	color: #fea55f !important;
+}
+.pl-sre {
+	color: #fea55f !important;
+}
+.pl-st {
+	color: #fea55f !important;
+}
+.pl-stj {
+	color: #c5c8c6 !important;
+}
+.pl-stp {
+	color: #5565e8 !important;
+}
+.pl-sv {
+	color: #5565e8 !important;
+}
+.pl-v {
+	color: #5565e8 !important;
+}
+.pl-vi {
+	color: #5565e8 !important;
+}
+.pl-vo {
+	color: #c66 !important;
+}
+.pl-vpf {
+	color: #5565e8 !important;
+}
+.pl-mi1 {
+	color: #8f9d6a !important;
+	background: rgba(0, 64, 0, 0.5) !important;
+}
+.pl-mdht {
+	color: #8f9d6a !important;
+	background: rgba(0, 64, 0, 0.5) !important;
+}
+.pl-md {
+	color: #c66 !important;
+	background: rgba(64, 0, 0, 0.5) !important;
+}
+.pl-mdhf {
+	color: #c66 !important;
+	background: rgba(64, 0, 0, 0.5) !important;
+}
+.pl-mdr {
+	color: #5565e8 !important;
+	font-weight: 400 !important;
+}
+.pl-mdh {
+	color: #c66 !important;
+	font-weight: 400 !important;
+}
+.pl-mdi {
+	color: #c66 !important;
+	font-weight: 400 !important;
+}
+.pl-ib {
+	background-color: #c66 !important;
+}
+.pl-id {
+	background-color: #c66 !important;
+	color: #fff !important;
+}
+.pl-ii {
+	background-color: #c66 !important;
+	color: #fff !important;
+}
+.pl-iu {
+	background-color: #c66 !important;
+}
+.pl-mo {
+	color: #c5c8c6 !important;
+}
+.pl-mri {
+	color: #5565e8 !important;
+}
+.pl-ms1 {
+	background-color: #c5c8c6 !important;
+}
+.pl-va {
+	color: #5565e8 !important;
+}
+.pl-vpu {
+	color: #5565e8 !important;
+}
+.pl-entl {
+	color: #c5c8c6 !important;
+}
+.CodeMirror-gutters {
+	background: #222 !important;
+	border-right: 1px solid #484848 !important;
+}
+.CodeMirror-guttermarker {
+	color: #fff !important;
+}
+.CodeMirror-guttermarker-subtle {
+	color: #aaa !important;
+}
+.CodeMirror-linenumber {
+	color: #aaa !important;
+}
+
+.CodeMirror-activeline-background {
+	background: #27282e !important;
+}
+.CodeMirror-matchingbracket {
+	outline: 1px solid grey !important;
+	color: #fff !important;
+}
+.cm-keyword {
+	color: #f9ee98 !important;
+}
+.cm-atom {
+	color: #fc0 !important;
+}
+.cm-number {
+	color: #ca7841 !important;
+}
+.cm-def {
+	color: #8da6ce !important;
+}
+.cm-variable-2,
+span.cm-tag {
+	color: #607392 !important;
+}
+.cm-variable-3,
+span.cm-def {
+	color: #607392 !important;
+}
+.cm-operator {
+	color: #cda869 !important;
+}
+.cm-comment {
+	color: #777 !important;
+	font-style: italic !important;
+	font-weight: 400 !important;
+}
+.cm-string {
+	color: #8f9d6a !important;
+}
+.cm-string-2 {
+	color: #bd6b18 !important;
+}
+.cm-meta {
+	background-color: #141414 !important;
+	color: #f7f7f7 !important;
+}
+.cm-builtin {
+	color: #cda869 !important;
+}
+.cm-tag {
+	color: #997643 !important;
+}
+.cm-attribute {
+	color: #d6bb6d !important;
+}
+.cm-header {
+	color: #ff6400 !important;
+}
+.cm-hr {
+	color: #aeaeae !important;
+}
+.cm-link {
+	color: #ad9361 !important;
+	font-style: italic !important;
+	text-decoration: none !important;
+}
+.cm-error {
+	border-bottom: 1px solid red !important;
+}
+#notebook .highlight table {
+	background: #011221 !important;
+	color: #c5c8c6 !important;
+}
+.highlight .hll {
+	background-color: #373b41 !important;
+}
+.highlight .c {
+	color: #969896 !important;
+}
+.highlight .err {
+	color: #c66 !important;
+}
+.highlight .k {
+	color: #fea55f !important;
+}
+.highlight .l {
+	color: #5565e8 !important;
+}
+.highlight .h,
+.highlight .n {
+	color: #c5c8c6 !important;
+}
+.highlight .o {
+	color: #8abeb7 !important;
+}
+.highlight .p {
+	color: #c5c8c6 !important;
+}
+.highlight .cm {
+	color: #969896 !important;
+}
+.highlight .cp {
+	color: #969896 !important;
+}
+.highlight .c1 {
+	color: #969896 !important;
+}
+.highlight .cs {
+	color: #969896 !important;
+}
+.highlight .gd {
+	color: #c66 !important;
+}
+.highlight .ge {
+	font-style: italic !important;
+}
+.highlight .gh {
+	color: #c5c8c6 !important;
+	font-weight: 700 !important;
+}
+.highlight .gi {
+	color: #607b96 !important;
+}
+.highlight .gp {
+	color: #969896 !important;
+	font-weight: 700 !important;
+}
+.highlight .gs {
+	font-weight: 700 !important;
+}
+.highlight .gu {
+	color: #8abeb7 !important;
+	font-weight: 700 !important;
+}
+.highlight .kc {
+	color: #fea55f !important;
+}
+.highlight .kd {
+	color: #fea55f !important;
+}
+.highlight .kn {
+	color: #8abeb7 !important;
+}
+.highlight .kp {
+	color: #fea55f !important;
+}
+.highlight .kr {
+	color: #fea55f !important;
+}
+.highlight .kt {
+	color: #c98bdf !important;
+}
+.highlight .ld {
+	color: #607b96 !important;
+}
+.highlight .m {
+	color: #5565e8 !important;
+}
+.highlight .s {
+	color: #607b96 !important;
+}
+.highlight .na {
+	color: #81a2be !important;
+}
+.highlight .nb {
+	color: #c5c8c6 !important;
+}
+.highlight .nc {
+	color: #c98bdf !important;
+}
+.highlight .no {
+	color: #c66 !important;
+}
+.highlight .nd {
+	color: #8abeb7 !important;
+}
+.highlight .ni {
+	color: #c5c8c6 !important;
+}
+.highlight .ne {
+	color: #c66 !important;
+}
+.highlight .nf {
+	color: #81a2be !important;
+}
+.highlight .nl {
+	color: #c5c8c6 !important;
+}
+.highlight .nn {
+	color: #c98bdf !important;
+}
+.highlight .nx {
+	color: #81a2be !important;
+}
+.highlight .py {
+	color: #c5c8c6 !important;
+}
+.highlight .nt {
+	color: #8abeb7 !important;
+}
+.highlight .nv {
+	color: #c66 !important;
+}
+.highlight .ow {
+	color: #8abeb7 !important;
+}
+.highlight .w {
+	color: #c5c8c6 !important;
+}
+.highlight .mf {
+	color: #5565e8 !important;
+}
+.highlight .mh {
+	color: #5565e8 !important;
+}
+.highlight .mi {
+	color: #5565e8 !important;
+}
+.highlight .mo {
+	color: #5565e8 !important;
+}
+.highlight .sb {
+	color: #607b96 !important;
+}
+.highlight .sc {
+	color: #c5c8c6 !important;
+}
+.highlight .sd {
+	color: #969896 !important;
+}
+.highlight .s2 {
+	color: #607b96 !important;
+}
+.highlight .se {
+	color: #5565e8 !important;
+}
+.highlight .sh {
+	color: #607b96 !important;
+}
+.highlight .si {
+	color: #5565e8 !important;
+}
+.highlight .sx {
+	color: #607b96 !important;
+}
+.highlight .sr {
+	color: #607b96 !important;
+}
+.highlight .s1 {
+	color: #607b96 !important;
+}
+.highlight .ss {
+	color: #607b96 !important;
+}
+.highlight .bp {
+	color: #c5c8c6 !important;
+}
+.highlight .vc {
+	color: #c66 !important;
+}
+.highlight .vg {
+	color: #c66 !important;
+}
+.highlight .vi {
+	color: #c66 !important;
+}
+.highlight .il {
+	color: #5565e8 !important;
+}
+.gist-meta {
+	display: none;
+}
+.gist .gist-file {
+	margin-bottom: 0 !important;
+	border: 0 !important;
+	border-bottom: 0 !important;
+	
+}
+.gist .gist-data {
+	margin-bottom: 0 !important;
+	border: 0 !important;
+	border-bottom: 0 !important;
+	border-radius: 0.75rem !important;
+}
+.gist .blob-code {
+	line-height: 17px !important;
+}
+
+article {
+	border-radius: 0.75rem !important;
+}
+section {
+	border-radius: 0.75rem !important;
+}
+.gist-file {
+	border-radius: 0.75rem !important;
+}
+

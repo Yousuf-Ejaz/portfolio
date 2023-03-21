@@ -1,0 +1,15 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
+import AboutPage from "./AboutPage";
+
+function CombinedAboutPage() {
+	return (
+		<div className="h-screen  bg-[#011627] font-body flex flex-col bg-right-top z-10 bg-no-repeat header">
+			<Header currentTab={"aboutme"} />
+			<AboutPage />
+			<Footer />
+		</div>
+	);
+}
+export default CombinedAboutPage;
