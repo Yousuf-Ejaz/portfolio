@@ -1,6 +1,6 @@
 function ContactMessage({ setShowMessage }) {
 	return (
-		<div className="flex flex-col justify-center text-center text-[#607B96] gap-4">
+		<div className="flex flex-col justify-center content-center py-20 text-center text-[#607B96] gap-4">
 			<div className="text-white text-xl font-bold">Thank You! 🤘</div>
 			<div className="w-4/6 mx-auto">
 				Your Message has been accepted. You will recieve answer really

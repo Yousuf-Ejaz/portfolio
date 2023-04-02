@@ -13,6 +13,7 @@
 		"dotenv": "^16.0.3",
 		"firebase": "^9.17.2",
 		"framer-motion": "^10.7.0",
+		"preline": "^1.7.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-embed-gist": "^1.0.16",

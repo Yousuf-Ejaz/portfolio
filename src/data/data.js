@@ -2,7 +2,8 @@ const projects = [
 	{
 		id: 1,
 		name: "chatspot",
-		description: "A Web based chat Application based on MERN and Socket.IO.",
+		description:
+			"A Web based chat Application based on MERN and Socket.IO.",
 		live: "https://chatspot-prod.onrender.com/",
 		link: "https://github.com/Yousuf-Ejaz/chatspot",
 	},
@@ -11,20 +12,20 @@ const projects = [
 		name: "proshop",
 		description:
 			"An E-commerce application built on NodeJS and React alongside MongoDB.",
-		live: "proshop-mocha.vercel.app",
+		live: "https://proshop-mocha.vercel.app",
 		link: "https://github.com/Yousuf-Ejaz/proshop",
 	},
 	{
 		id: 3,
 		name: "house-marketplace",
-		live: "house-marketplace-ecru.vercel.app",
+		live: "https://house-marketplace-ecru.vercel.app",
 		description: "A house Marketplace built using React and Firebase.",
 		link: "https://github.com/Yousuf-Ejaz/house-marketplace",
 	},
 	{
 		id: 4,
 		name: "github-finder",
-		live: "github-finder-yousuf-ejaz.vercel.app/",
+		live: "https://github-finder-yousuf-ejaz.vercel.app/",
 		description:
 			"A Web based application to find Github users and display their info.",
 
@@ -35,14 +36,15 @@ const projects = [
 		name: "galeria",
 		description:
 			"A social media Application exclusively for sketch artists and painters.",
-		live: "galeria-sh.netlify.app/",
+		live: "https://galeria-sh.netlify.app/",
 		link: "https://github.com/Yousuf-Ejaz/Galeria",
 	},
 	{
 		id: 6,
 		name: "feedback-application",
-		description: "A Simple web based Feedback Application built upon react.",
-		live: "loquacious-salmiakki-cc01c9.netlify.app/",
+		description:
+			"A Simple web based Feedback Application built upon react.",
+		live: "https://loquacious-salmiakki-cc01c9.netlify.app/",
 		link: "https://github.com/Yousuf-Ejaz/feedback-application",
 	},
 ];

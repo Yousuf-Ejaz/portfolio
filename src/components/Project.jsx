@@ -1,12 +1,11 @@
-import shoeImg from "../assets/projectImages/shoes.jpg";
 function Project({ project, image }) {
 	return (
 		<div className="flex flex-col gap-2 justify-center">
 			<div className="basis-2 flex  text-center">
-				<span className="text-[#4D5BCE] font-semibold ">
+				<span className="text-[#4D5BCE] text-base md:text-md font-semibold ">
 					Project {project.id}&nbsp;
 				</span>
-				<span className="text-md text-[#607B96]">
+				<span className="text-base md:text-md text-[#607B96]">
 					// {project.name}
 				</span>
 			</div>
@@ -19,13 +18,25 @@ function Project({ project, image }) {
 						<p className="text-sm">{project.description}</p>
 						<div className="card-actions justify-between flex ">
 							<a href={project.link}>
-								<button className="text-sm rounded-lg bg-[#1C2B3A] text-white py-3 text-center inline-block px-3 w-32">
-									view-project
+								<button className="text-sm rounded-lg bg-[#1C2B3A] text-white py-3 text-center inline-block px-3 w-12 md:w-32">
+									<span className="hidden md:block">
+										view-project
+									</span>
+									<span className="block md:hidden">
+										<i className="ri-github-fill text-xl"></i>
+									</span>
 								</button>
 							</a>
-							<button className="text-sm rounded-lg bg-[#1C2B3A] text-white py-3 text-center inline-block px-3 w-32">
-								view-live
-							</button>
+							<a href={project.live}>
+								<button className="text-sm rounded-lg bg-[#1C2B3A] text-white py-3 text-center inline-block px-3 w-12 md:w-32">
+									<span className="hidden md:block">
+										view-live
+									</span>
+									<span className="block md:hidden">
+										<i className="ri-links-fill text-xl"></i>
+									</span>
+								</button>
+							</a>
 						</div>
 					</div>
 				</div>

@@ -19,13 +19,7 @@ function Interests() {
 			&nbsp;* communities, I am always excited to collaborate <br />
 			&nbsp;* with fellow developers and share my knowledge and
 			<br />
-			&nbsp;* expertise. I enjoy learning from others and
-			<br />
-			&nbsp;* contributing to open-source projects, as well as
-			<br />
-			&nbsp;* attending tech events and conferences to broaden my
-			<br />
-			&nbsp;* horizons. <br />
+			&nbsp;* expertise. <br />
 			&nbsp;* In addition to my love for traditional web development
 			<br />
 			&nbsp;* , I am also fascinated by the innovations in the web3

@@ -1,15 +1,22 @@
 import Project from "../components/Project";
 import projects from "../data/data";
 import chatspot from "../assets/projectImages/chatspot.jpg";
-import shoeImg from "../assets/projectImages/shoes.jpg";
-import proshop from "../assets/projectImages/proshop.jpg"
-import marketplace from "../assets/projectImages/house-marketplace.jpg"
-import githubfinder from "../assets/projectImages/github-finder.jpg"
-import galeria from "../assets/projectImages/galeria.jpg"
-import feedbackapp from "../assets/projectImages/feedbackapp.jpg"
+
+import proshop from "../assets/projectImages/proshop.jpg";
+import marketplace from "../assets/projectImages/house-marketplace.jpg";
+import githubfinder from "../assets/projectImages/github-finder.jpg";
+import galeria from "../assets/projectImages/galeria.jpg";
+import feedbackapp from "../assets/projectImages/feedbackapp.jpg";
 
 function ProjectPage() {
-	const images = [chatspot, proshop, marketplace, githubfinder, galeria, feedbackapp];
+	const images = [
+		chatspot,
+		proshop,
+		marketplace,
+		githubfinder,
+		galeria,
+		feedbackapp,
+	];
 	return (
 		<div className="grow flex 2xl:text-md text-sm">
 			<div className="  text-[#607B96]  basis-2/12  border-r border-[#1E2D3D] h-full flex">
@@ -45,7 +52,7 @@ function ProjectPage() {
 						<i className="ri-close-fill"></i>
 					</div>
 				</div>
-				<div className="py-14 px-10 h-[620px] overflow-y-auto">
+				<div className="py-14 px-10 h-[500px] md:h-[620px] overflow-y-auto">
 					<div className="grid grid-cols-3 gap-8">
 						{projects.map((project) => (
 							<Project

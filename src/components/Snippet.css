@@ -652,7 +652,6 @@ span.cm-def {
 	margin-bottom: 0 !important;
 	border: 0 !important;
 	border-bottom: 0 !important;
-	
 }
 .gist .gist-data {
 	margin-bottom: 0 !important;
@@ -674,3 +673,6 @@ section {
 	border-radius: 0.75rem !important;
 }
 
+#file-userprofilecontroller-js {
+	margin: 0;
+}

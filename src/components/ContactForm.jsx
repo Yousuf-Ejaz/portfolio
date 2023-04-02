@@ -47,7 +47,7 @@ function ContactForm({ getData, dateString, setShowMessage }) {
 	return (
 		<form
 			onSubmit={handleSubmit(onSubmit)}
-			className="py-20 px-4 text-[#607B96] flex flex-col gap-4 text-sm w-8/12"
+			className="py-20 px-4 text-[#607B96] flex flex-col gap-4 text-sm w-11/12  mx-auto md:w-8/12"
 		>
 			<div className="flex flex-col gap-1">
 				<label htmlFor="name">_name:</label>
