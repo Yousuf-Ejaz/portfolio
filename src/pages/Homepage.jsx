@@ -37,9 +37,12 @@ function Homepage() {
 						<span className="text-white">=&nbsp;</span>
 						<span className="text-[#E99287] ">
 							“
-							<span className="underline underline-offset-1 whitespace-normal">
-								https://github.com/example/url
-							</span>
+							<a
+								className="underline underline-offset-1 whitespace-normal"
+								href="https://github.com/Yousuf-Ejaz"
+							>
+								https://github.com/Yousuf-Ejaz
+							</a>
 							”
 						</span>
 					</div>
@@ -53,11 +56,14 @@ function Homepage() {
 						<span className="text-white">=&nbsp;</span>
 						<span className="text-[#E99287] ">
 							“
-							<span className="underline underline-offset-1 whitespace-normal">
+							<a
+								className="underline underline-offset-1 whitespace-normal"
+								href="https://github.com/Yousuf-Ejaz"
+							>
 								https://
 								<br />
-								github.com/example/url
-							</span>
+								github.com/Yousuf-Ejaz
+							</a>
 							”
 						</span>
 					</div>
